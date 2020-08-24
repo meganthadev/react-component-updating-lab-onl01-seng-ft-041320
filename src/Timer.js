@@ -13,6 +13,8 @@ class Timer extends Component {
   componentDidUpdate(){
     this.timer.current.style.color = `#${Math.floor(Math.random()* 16 ** 6).toString(16)}`
   }
+  
+  
 
   componentDidMount() {
     this.interval = setInterval(
